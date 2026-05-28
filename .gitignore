@@ -1,0 +1,43 @@
+# IDEs and OS junk
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python runtime cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary office files
+~$*.docx
+~$*.doc
+~$*.xlsx
+
+# Exclude all python files from repo
+*.py
+
+# Exclude report markdown and standard texts
+*.md
+*.txt
+
+# Exclude PDFs and PNGs
+*.pdf
+*.png
+
+# Exclude temporary/diagnostic files in workspace
+extracted_img_*
+test_math.docx
+test_eq_2_6.docx
+drafts/
+
+# Exclude old/draft DOCX copy (keep ONLY the corrected one!)
+Творческое_задание_Тарасенко_534-2.docx
+
+# Do NOT ignore the final report file needed for the download button
+!Творческое_задание_Тарасенко_534-2_исправлено.docx
